@@ -4,8 +4,8 @@ public class SortingPerformanceAnalyzer {
     
     public static void main(String[] args) {  
         int[] smallDataSet = generateRandomDataSet(10);
-        int[] mediumDataSet = generateRandomDataSet(10);
-        int[] largeDataSet = generateRandomDataSet(10);
+        int[] mediumDataSet = generateRandomDataSet(100);
+        int[] largeDataSet = generateRandomDataSet(1000);
         
         // Messure performance of sorting algorithms on three different datasets
         System.out.println("Small Data Set\n");
